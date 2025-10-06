@@ -1,0 +1,10 @@
+Project Summary:
+
+Our database models key aspects of academic collaboration and productivity 
+among students. It supports how students form study groups, organize, 
+and attend study sessions. The database tracks groups, sessions, and subjects
+ or other materials. It also links sessions to locations and provides access to 
+ study resources related to each course. Students can leave reviews on other 
+ students. These features together model real-life academic routines like group
+  study planning, shared learning resources, and feedback after collaborative 
+  sessions. 

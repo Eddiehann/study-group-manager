@@ -1,0 +1,84 @@
+July 24–27:
+Database & Initial Setup
+
+July 28–Aug 1:
+Query & GUI Implementation
+
+Aug 2–Aug 4:
+Documentation & Screenshots
+
+Aug 5:
+Final Testing + Submission
+
+Danny – Backend + SQL Development Lead
+Jul 24–27:
+
+Build SQL setup script (CREATE TABLE, INSERT INTO) — focus on schema correctness, PKs, FKs
+
+Ensure data is non-trivial for division & aggregation queries
+
+Jul 28–Aug 1:
+
+Implement backend logic to connect frontend to SQL DB using Java/PHP
+
+Use host variables (:param) for dynamic user inputs
+
+Aug 2–Aug 5:
+
+Write README.txt for backend + SQL info (e.g., schema assumptions, edge cases)
+
+Aug 6:
+
+Help with demo run-through; final testing of backend logic
+
+Richard – Frontend + Query Trigger Developer
+Jul 24–27:
+
+Set up GUI skeleton (use starter code from Tutorial 6/7)
+
+Create input forms for host variable queries (dropdowns, buttons, text fields)
+
+Jul 28–Aug 1:
+
+Bind buttons/forms to SQL query triggers
+
+Implement required CRUD + join + aggregation queries
+
+Aug 2–Aug 5:
+
+Take GUI screenshots (before/during/after) per query, label and organize for report
+
+Aug 6:
+
+Polish styling and test interactivity for the demo
+
+Eddie – Documentation + QA Lead
+Jul 24–27:
+
+Assist Danny with validating SQL script (test it in SQL Plus)
+
+Review schema for correctness & prepare relational schemas with underlined PKs, bold FKs
+
+Jul 28–Aug 1:
+
+Track which SQL query is used in which file/line number
+
+Keep a running list for documentation
+
+Aug 2–Aug 5:
+
+Create final PDF writeup:
+
+Final project summary
+
+Schema evolution (what changed and why)
+
+Schema and instance screenshots
+
+Query file/line map
+
+GUI screenshots labeled
+
+Aug 6:
+
+Final spellcheck + ensure every requirement from Milestone 4 rubric is checked of
