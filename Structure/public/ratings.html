@@ -26,7 +26,13 @@
                 Current Student: <span id="selectedStudent"> Not Selected </span>
             </div>
             
-            <div id="links" class="flex gap-6 hidden transition fade-left">
+            <div class="flex gap-6 transition fade-left">
+                <a href="index.html">
+                    <div class="flex items-center font-bold transition
+                    duration-200 ease-in-out hover:-translate-y-1">
+                        Home
+                    </div>
+                </a>
 
                 <a href="ratings.html">
                     <div class="flex items-center font-bold transition
@@ -46,23 +52,33 @@
 
         <div class="grid gap-6 px-8 py-6 transition fade-up">
             <section>
-                <h2 class="font-bold"> Select Student </h2>
-                <form id="selectStudent" class="flex gap-4 justify-between items-center">
-                    <input type="text" id="insertSID" class="px-3 py-2" placeholder="Enter SID" required>
+                <h2 class="font-bold"> Give Rating </h2>
+                <form id="giveRating" class="flex gap-4 justify-between items-center">
+                    <select id="ratingSID" class="appearance-none px-3 py-2" required>
+                        <option disabled selected> -- Select Student -- </option>
+
+                    </select>
+                    <input type="text" id="ratingValue" class="px-3 py-2" placeholder="Enter Value" maxlength="100" required>
                     <button class="px-3 py-2 text-white bg-[#0079fa] hover:opacity-75"
-                    type="submit"> Select </button>
+                    type="submit"> Submit </button>
                 </form>
-                <div id="selectResultMsg"></div>
+                <div id="giveRatingMsg"></div>
             </section>
 
             <section>
-                <h2 class="font-bold"> Register Student </h2>
-                <form id="insertStudent" class="flex gap-4 justify-between items-center">
-                    <input type="text" id="insertName" class="px-3 py-2" placeholder="Enter Name" maxlength="100" required>
-                    <button class="px-3 py-2 text-white bg-[#0079fa] hover:opacity-75"
-                    type="submit"> Register </button>
-                </form>
-                <div id="insertResultMsg"></div>
+                <h2 class="font-bold">Ratings</h2>
+                <table id="ratings">
+                    <thead>
+                        <tr>
+                            <!--Table head, need to be adjusted accordingly to align with your own.-->
+                            <th class="rounded-tl-xl">Page ID</th>
+                            <th>Average Rating</th>
+                            <th class="rounded-tr-xl">SID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </section>
 
             <section>
